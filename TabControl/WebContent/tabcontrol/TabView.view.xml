@@ -1,0 +1,18 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="tabcontrol.TabView" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Table Control">
+		<content>
+		  <sap.ui.comp.smarttable:SmartTable 
+		  height="100%" width="100%" 
+		  direction="Column" 
+		  fitContainer="true" 
+		  tableType="ResponsiveTable" 
+		  header="Promotion Table" 
+		  enableAutoBinding="true" 
+		  tableType = "Table"
+		  useExportToExcel = "true"
+		  xmlns:sap.ui.comp.smarttable="sap.ui.comp.smarttable" 
+		  id="Table"/>
+		</content>
+	</Page>
+</core:View>
